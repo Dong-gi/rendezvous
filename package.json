@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dong-gi/rendezvous/issues"
   },
-  "homepage": "https://github.com/Dong-gi/rendezvous#readme"
+  "homepage": "https://github.com/Dong-gi/rendezvous#readme",
+  "dependencies": {
+    "oracledb": "^5.2.0"
+  }
 }
