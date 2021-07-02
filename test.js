@@ -3,7 +3,7 @@
 //const client = dgram.createSocket('udp4');
 //client.send('hello world', 50000);
 
-import dbConfig from './config/dbConfig.json'
+import dbConfig from './config/dbConfig'
 import { Pool, Client } from 'pg'
 
 const pool = new Pool(dbConfig)
