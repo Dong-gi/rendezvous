@@ -19,5 +19,6 @@
   "homepage": "https://github.com/Dong-gi/rendezvous#readme",
   "dependencies": {
     "pg": "^8.6.0"
-  }
+  },
+  "type": "module"
 }
