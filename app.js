@@ -1,8 +1,9 @@
-const dgram = require('dgram');
-const net = require('net');
+const dgram = require('dgram')
+const fastify = require('fastify')({ logger: false })
 
-// health checker
-net.createServer(socket => socket.end('')).listen(50001);
+fastify.get('/health', (request, reply) => '')
+fastify.listen(50001)
+
 
 const server = dgram.createSocket('udp4');
 server.on('message', console.log);
