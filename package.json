@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Dong-gi/rendezvous#readme",
   "dependencies": {
+    "fastify": "^3.18.1",
     "pg": "^8.6.0"
   }
 }
