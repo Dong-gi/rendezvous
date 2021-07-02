@@ -1,4 +1,4 @@
-export default {
+export let DBConfig = {
     "user": "rendezvous",
     "host": "10.0.0.226",
     "database": "rendezvous",
